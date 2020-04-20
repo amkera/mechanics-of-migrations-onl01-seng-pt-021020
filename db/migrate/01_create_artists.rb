@@ -1,10 +1,5 @@
 class CreateArtists < ActiveRecord::Migration[5.2]
-  def up 
-    #defines the code to execute when the migration is run. "do"
-  end 
-  
-  def down 
-    #defines the code to execute when the migration is rolled back. "undo"
+  def change
   end 
   
   def change
