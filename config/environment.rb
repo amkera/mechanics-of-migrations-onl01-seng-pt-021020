@@ -31,10 +31,6 @@ ActiveRecord::Base.connection.execute(sql)
 require_relative "../artist.rb"
 
 
-def change
-  create_table :artists do |t|
-  end 
-end 
 
 
 
