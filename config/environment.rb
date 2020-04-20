@@ -33,8 +33,4 @@ ActiveRecord::Base.connection.execute(sql)
 require_relative "../artist.rb"
 
 
-
-
-
-
 #Using migrations, we will still need establish Active Record's connection to the database, but we no longer need the SQL! Instead of dealing with SQL directly, we provide the migrations body (in Ruby) and Active Record takes care of creating complex SQL commands. This is less error-prone and much easier to read.
